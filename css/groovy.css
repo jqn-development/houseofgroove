@@ -1,0 +1,400 @@
+@font-face {
+font-family:"BN Expoo";
+src:url("../fonts/BN_Expoo/bnexpoo.eot?") format("eot"),
+url("../fonts/BN_Expoo/bnexpoo.woff") format("woff"),
+url("../fonts/BN_Expoo/bnexpoo.ttf") format("truetype"),
+url("../fonts/BN_Expoo/bnexpoo.svg#BNExpoo") format("svg");
+font-weight:normal;font-style:normal;}
+
+/*!
+* Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+@media(min-width:767px) {
+  .navbar {
+    border-bottom: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+.logo-top {
+  font-size: 1.4em;
+}
+
+.intro-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background: url(../img/soundboard.jpg) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-backgroudn-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro-section .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro-section .intro-body .brand-heading {
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 2px red;
+  font-family: 'BN Expoo', sans-serif;
+  font-size: 9em;
+  line-height: 1em;
+  color: black;
+}
+
+.intro-section .intro-body .intro-text {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 60px;
+  color: red;
+}
+
+
+.img-responsive {
+  width: 80%;
+}
+
+.about-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: #eee;
+}
+
+.about-section .about-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about-section h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+  color: black;
+  text-align: left;
+}
+
+.about-section p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.about-section img {
+  width: 100%;
+  padding-top: 8em;
+}
+
+.services-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.services-section .services-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.services-section h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+  color: black;
+}
+
+.services-section p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.testimonials-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: #eee;
+}
+
+.testimonials-section .testimonials-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.testimonials-section h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+  color: black;
+}
+
+.testimonials-section h2 {
+  font-size: 2em;
+  line-height: 1em;
+  color: black;
+}
+
+.testimonials-section p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.contact-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-section .contact-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contact-section h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+  color: black;
+}
+
+.contact-section button {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.social-section {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: #eee;
+}
+
+.social-section .social-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social-section h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+  color: black;
+}
+
+.social-section p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+footer {
+  color: white;
+  background: black;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #eee;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 1.7em;
+  background: 0 0;
+  box-shadow: none!important;
+  resize: none;
+}
+
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 1.5em;
+  margin: 0;
+  font-size: .85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top .3s ease,opacity .3s ease;
+  -moz-transition: top .3s ease,opacity .3s ease;
+  -ms-transition: top .3s ease,opacity .3s ease;
+  transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+  color: red;
+}
+
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eee;
+}
+
+/**** button styles ****/
+
+.btn-circle {
+  background: 0 0;
+  border: 2px solid red;
+  border-radius: 35px;
+  color: red;
+  font-size: 40px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  width: 70px;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+  background: rgba(255,255,255,.1);
+  color: red;
+  outline: 0;
+}
+
+.btn-circle i.animated {
+  -moz-transition-property: -moz-transform;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+
+@media(min-width:600px) {
+  .description {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .btn-circle {
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .btn-circle:hover {
+    color: #fff;
+  }
+
+}
+
+/* Button Animation */
+@-webkit-keyframes pulse {
+  0 {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {
+  0 {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/*****************************/
