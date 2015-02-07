@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Quotes Rotator</title>
+		<meta name="description" content="Blueprint: Quotes Rotator" />
+		<meta name="keywords" content="quotes rotator, content rotator, jquery, javascript, fade in, fade out, css3, component, html, web development, blockquote" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+         <link rel="stylesheet" href="css/styles.css"/>
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+        
+          <div class="header-bkg">        
+        <header>
+            <!--<img src="http://www.placehold.it/1024x200&text=Banner"/>-->
+            <h1>HousE of GroovE <span>Colorado Springs Professional DJ</span></h1>
+        </header>
+        
+        <div class="clr"></div>    
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Reserve Your Spot</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </nav>   
+			
+			<div class="main">
+				<div id="cbp-qtrotator" class="cbp-qtrotator">
+					<div class="cbp-qtcontent">
+						<img src="images/1.jpg" alt="img01" />
+						<blockquote>
+						  <p>Our special day couldn’t have been more perfect thanks to Ludwig and Serg! We knew we had made the right decision to hire House of Groove Entertainment from the very first moment.</p>
+						  <footer>Kristina & Laszlo, March 15th, 2012</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/2.jpg" alt="img02" />
+						<blockquote>
+						  <p>On May 19 my husband Steve and I hosted a party for our daughter and her friend.  It was a combined birthday and graduation party.  We had good food and great friends over to celebrate.  But, what made it the party of all parties was DJ Ludwig. </p>
+						  <footer>Steve and Liz Rael</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/3.jpg" alt="img03" />
+						<blockquote>
+						  <p>Ludwig was our DJ and he was excellent.  His service provides the highest level of professionalism.  Everyone had so much fun at our wedding and he really kept the party going. The dance floor was never empty. Thanks to his humor and personality he made our day even more special.</p>
+						  <footer>Enrique & Valeria Castanon</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/4.jpg" alt="img04" />
+						<blockquote>
+						  <p> I truly feel that our Craft Show and Business Expo would have been a real “flop” if it hadn’t been for the excellent job that “House of Groove” did!
+
+We will definitely use them again and I would highly recommend them!</p>
+						  <footer>Amy Stull - Woodmen Hills Community Center West</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpQTRotator.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpQTRotator( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 100000,
+					// default transition easing
+					easing : 'ease',
+					// rotator interval (ms)
+					interval : 100000,
+				}
+				- destroy:
+				$( selector ).cbpQTRotator( 'destroy' );
+				*/
+
+				$( '#cbp-qtrotator' ).cbpQTRotator();
+
+			} );
+		</script>
+	</body>
+</html>

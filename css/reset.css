@@ -22,3 +22,13 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+/* mouse over link logo-top */
+.navbar-default .navbar-brand {
+  color: red;
+}
+
+/* mouse over link menu */
+.navbar-default .navbar-nav > li > a:hover {
+  color: red;
+}
