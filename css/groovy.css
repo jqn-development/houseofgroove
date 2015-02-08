@@ -36,6 +36,10 @@ html {
   }
 }
 
+.navbar-default {
+  background-color: #fff;
+}
+
 .logo-top {
   font-size: 1.4em;
 }
@@ -76,6 +80,12 @@ html {
   line-height: 60px;
   color: red;
 }
+
+.intro-section .img-responsive {
+  max-width: 80%;
+}
+
+/**************************/
 
 .about-section {
   display: table;
@@ -123,6 +133,8 @@ html {
   width: 100%;
 }
 
+/**************************/
+
 .services-section {
   display: table;
   width: 100%;
@@ -149,6 +161,11 @@ html {
   font-size: 2em;
   line-height: 2em;
 }
+
+.services-list {
+  padding-top: 4em;
+}
+/**************************/
 
 .testimonials-section {
   display: table;
@@ -183,6 +200,8 @@ html {
   line-height: 2em;
 }
 
+/**************************/
+
 .contact-section {
   display: table;
   width: 100%;
@@ -209,6 +228,8 @@ html {
   font-size: 30px;
   line-height: 60px;
 }
+
+/**************************/
 
 .social-section {
   display: table;
@@ -238,6 +259,8 @@ html {
   color: #000;
 }
 
+/**************************/
+
 footer {
   color: white;
   background: black;
@@ -249,6 +272,8 @@ footer p {
   font-size: 1.4em;
   line-height: 2em;
 }
+
+/**************************/
 
 .floating-label-form-group {
   position: relative;
