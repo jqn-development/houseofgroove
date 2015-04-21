@@ -21,7 +21,7 @@ html {
 
 @media(min-width:767px) {
   .navbar {
-    border-bottom: 0;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.8);
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.4em;
     letter-spacing: 1px;
@@ -41,6 +41,7 @@ html {
 }
 
 .logo-top {
+  /*font-family: 'BN Expoo', sans-serif;*/
   font-size: 1.4em;
 }
 
@@ -117,7 +118,7 @@ html {
   font-family: 'Rajdhani', sans-serif;
   font-size: 1.9em;
   line-height: 2em;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-section img {
@@ -259,6 +260,13 @@ html {
   color: #000;
 }
 
+.social-section .hog-brand span {
+  /*font-family:"BN Expoo";*/
+  /*font-size: 1.5em;*/
+  font-weight: 600;
+  color: red;
+}
+
 /**************************/
 
 footer {
@@ -273,7 +281,10 @@ footer p {
   line-height: 2em;
 }
 
-/**************************/
+footer a {
+  color: white;
+}
+/**** Contact Form Styles ****/
 
 .floating-label-form-group {
   position: relative;
